@@ -1,0 +1,55 @@
+# Local environments and generated machine state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.claude/
+.claude-flow/
+.swarm/
+.ruflo/
+ruvector.db*
+
+# Training data, checkpoints and local sessions live in the complete local copy.
+data/
+dataset/
+datasets/
+Clustering_demo_dataset/
+fer2013.csv
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+*.tflite
+*.ckpt
+*.zip
+*.mp4
+*.mov
+*.avi
+*.webm
+logs/
+screenshots/
+Main code file 2/
+
+# Face collections and media preserved locally for the coursework extension.
+**/Face_clustering/*.jpg
+**/Face_clustering/*.jpeg
+**/Face_clustering/*.png
+**/Face_clustering/*.webp
+**/Face_clustering/KNN_Clustering_Result/
+**/Face_clustering/DBSCAN_Clustering_Results/
+predicted_emotion_image.jpg
+*.wav
+*.mp3
+.agents/
+.codex/
